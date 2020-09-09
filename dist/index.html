@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div id="full-navigation">
+                <div class="left-nav">
+                    <a href="#"><i class="fab fa-wordpress"></i></a>
+                    <a href="#">HOME</a>
+                    <a href="#">SHOP</a>
+                    <a href="#">MAGAZINE</a>
+                </div>
+                <div class="right-nav">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                    <a href="#">LOGIN</a>
+                </div>
+            </div>
+            <div id="menuToggle">
+               
+                <input type="checkbox" />
+                 <span></span>
+                 <span></span>
+                 <span></span>
+               
+                <ul id="menu">
+                    <div class="same-line">
+                        <a href="#"><li><i class="fab fa-wordpress"></i></li></a>
+                    <a href="#"><li><i class="fas fa-cart-plus"></i></li></a>
+                    <a href="#"><li>LOGIN</li></a>
+                    </div>
+                    
+                    <a href="#"><li><i class="fas fa-search"></i></li></a>
+                    <a href="#"><li>HOME</li></a>
+                    <a href="#"><li>SHOP</li></a>
+                    <a href="#"><li>MAGAZINE</li></a>
+                  </ul>
+            </div>
+            <div class="filter">
+                <input type="checkbox" />
+                <i class="fas fa-filter"></i>
+                <div class="filters">
+                    <ul>
+                        <li>FILTER BY</li>
+                        <li>Collection<i class="fas fa-angle-down"></i></li>
+                        <li>Color<i class="fas fa-angle-down"></i></li>
+                        <li>Category<i class="fas fa-angle-down"></i></li>
+                        <li>Price Range</li>
+                    </ul>
+                </div>
+            </div>
+           
+        </nav>
+
+        <div class="page-content" id="page-content">
+            <div class="filters">
+                <ul>
+                    <li>FILTER BY</li>
+                    <li>Collection<i class="fas fa-angle-down"></i></li>
+                    <li>Color<i class="fas fa-angle-down"></i></li>
+                    <li>Category<i class="fas fa-angle-down"></i></li>
+                    <li>Price Range</li>
+                </ul>
+            </div>
+            <div class="items" id="items"></div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/668afb63dd.js" crossorigin="anonymous"></script>
+<script src="./js/index.js" crossorigin="anonymous"></script>
+</html>

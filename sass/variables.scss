@@ -1,0 +1,7 @@
+$primary-color: #333;
+$screen-md-min: 991px;
+@mixin md {
+    @media (max-width: #{$screen-md-min}) {
+        @content;
+    }
+ }

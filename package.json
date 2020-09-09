@@ -1,0 +1,15 @@
+{
+  "name": "loading_json_using_ajax",
+  "version": "1.0.0",
+  "description": "loading json data",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w sass/ -o dist/css --recursive"
+  },
+  "author": "",
+  "license": "ISC"
+}
